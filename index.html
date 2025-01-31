@@ -11,7 +11,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="category.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Browse4Pets</title>
   </head>
@@ -61,7 +61,96 @@
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <!-- Home section ST -->
+      <section>
+        <div
+          class="container mx-auto px-5 py-32 flex flex-col lg:flex-row items-center"
+        >
+          <div class="lg:w-1/2 lg:text-left">
+            <h1 class="text-4xl lg:text-6xl font-bold text-black mb-6">
+              Pamper Your Pet,<br />
+              Because They Deserve <br />
+              the Best
+            </h1>
+            <p class="text-lg text-gray-600 mb-8">
+              Discover a world of treats, toys, and essentials handpicked for
+              your furry friends. Shop now and make tails wag with joy!
+            </p>
+            <button
+              class="bg-[#FFDC26] text-black font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-yellow-500 transition"
+            >
+              Find a pet
+            </button>
+          </div>
+
+          <div class="lg:w-1/2 flex justify-center">
+            <img
+              src="./assets/cat-big.png"
+              alt="Cat image"
+              class="max-w-full h-auto"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Home section END -->
+
+      <section>
+        <div class="categoty_main_top_container">
+          <h2>Browse By Categories</h2>
+
+          <div class="category_card_main_container">
+            <div class="category_cards_container">
+              <div class="category_card_image_container">
+                <img src="./assets/dog-cartoon.png" alt="Pet Image" />
+              </div>
+              <h3>Dog</h3>
+              <p>3 items</p>
+            </div>
+
+            <div class="category_cards_container">
+              <div class="category_card_image_container">
+                <img src="./assets/fish-cartoon.png" alt="Pet Image" />
+              </div>
+              <h3>Fish</h3>
+              <p>3 items</p>
+            </div>
+
+            <div class="category_cards_container">
+              <div class="category_card_image_container">
+                <img src="./assets/cat-cartoon.png" alt="Pet Image" />
+              </div>
+              <h3>Cat</h3>
+              <p>3 items</p>
+            </div>
+
+            <div class="category_cards_container">
+              <div class="category_card_image_container">
+                <img src="./assets/bird-cartoon.png" alt="Pet Image" />
+              </div>
+              <h3>Birds</h3>
+              <p>3 items</p>
+            </div>
+
+            <div class="category_cards_container">
+              <div class="category_card_image_container">
+                <img src="./assets/mouse-cartoon.png" alt="Pet Image" />
+              </div>
+              <h3>Small pet</h3>
+              <p>3 items</p>
+            </div>
+
+            <div class="category_cards_container">
+              <div class="category_card_image_container">
+                <img src="./assets/rabbit-cartoon.png" alt="Pet Image" />
+              </div>
+              <h3>Rabit</h3>
+              <p>3 items</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer></footer>
   </body>
