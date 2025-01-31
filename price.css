@@ -1,0 +1,40 @@
+.price_main_top_container {
+  max-width: 1536px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 0 10px;
+}
+
+.price_main_top_container h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.price_card_main_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.price_left_cards_container {
+  padding: 50px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: linear-gradient(134.71deg, #f8ccfb 1.286%, #acd2fd 100%);
+}
+
+.price_left_card_inner_content h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.price_right_cards_container {
+  width: 40%;
+  padding: 50px;
+  border-radius: 12px;
+  background: linear-gradient(134.71deg, #fff9f4 1.511%, #f9df8a 100%);
+}
