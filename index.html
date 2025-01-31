@@ -1,19 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Browse4Pets</title>
-</head>
-<body>
-  <header>
-    <nav>
-      
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Browse4Pets</title>
+  </head>
+  <body>
+    <header class="bg-[#FFF9F4] py-4 px-5">
+      <nav class="max-w-[1536px] m-auto flex justify-between items-center">
+        <div class="flex items-center gap-3">
+          <img src="./assets/logo-header.png" alt="Logo" />
+          <span class="text-lg font-semibold text-gray-700 hidden md:inline"
+            >Browse<span class="text-[#FFDC26]">4</span>Pets</span
+          >
+        </div>
 
-  <main></main>
+        <ul class="hidden md:flex gap-6 text-gray-700">
+          <li>
+            <a href="#" class="hover:border-b-2 border-[#FFDC26]">Find a pet</a>
+          </li>
+          <li>
+            <a href="#" class="hover:border-b-2 border-[#FFDC26]">Breeds</a>
+          </li>
+          <li>
+            <a href="#" class="hover:border-b-2 border-[#FFDC26]">Contact us</a>
+          </li>
+        </ul>
 
-  <footer></footer>
-</body>
+        <div class="hidden md:flex items-center gap-4">
+          <i class="fa-regular fa-bell text-xl" style="color: #000000"></i>
+          <i
+            class="fa-solid fa-magnifying-glass text-xl"
+            style="color: #000000"
+          ></i>
+          <button
+            class="border border-[#FFDC26] px-4 py-1 rounded-lg hover:bg-yellow-100"
+          >
+            Login
+          </button>
+          <button
+            class="bg-[#FFDC26] text-white px-4 py-1 rounded-lg hover:bg-yellow-600"
+          >
+            Register
+          </button>
+        </div>
+
+        <button class="md:hidden text-gray-700 text-2xl">
+          <i class="fa-solid fa-bars" style="color: #000000"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main></main>
+
+    <footer></footer>
+  </body>
 </html>
